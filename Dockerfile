@@ -10,6 +10,4 @@ COPY config.json /etc/v2ray/config.json
 CMD ["v2ray", "run", "-config", "/etc/v2ray/config.json"]
 
 
-# join telegram https://t.me/vpsmax2  for new updates 
-# my telegram username is @mujta1n
-n
+
