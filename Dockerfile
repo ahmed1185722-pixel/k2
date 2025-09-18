@@ -1,4 +1,4 @@
-FROM teddysun/v2ray:latest
+na teddysun/v2ray:latest
 
 # Expose the correct container port (8080)
 EXPOSE 8080
@@ -12,3 +12,4 @@ CMD ["v2ray", "run", "-config", "/etc/v2ray/config.json"]
 
 # join telegram https://t.me/vpsmax2  for new updates 
 # my telegram username is @mujta1n
+n
