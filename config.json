@@ -2,19 +2,17 @@
   "inbounds": [
     {
       "port": 8080,
-      "protocol": "trojan",
+      "protocol": "vless",
       "settings": {
+        "decryption": "none",
         "clients": [
           {
-            "password": "motdepasse123"
+            "id": "63990220-9ef5-4d7b-b0af-807465a96768"
           }
         ]
       },
       "streamSettings": {
-        "network": "ws",
-        "wsSettings": {
-          "path": "/trojan-ws"
-        }
+        "network": "ws"
       }
     }
   ],
